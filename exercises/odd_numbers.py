@@ -1,4 +1,4 @@
-def even_numbers(low, high):
+def odd_numbers(low, high):
 	if low < high:
 		return "The first argument is higher than the second."
 	if type(low) == int or type(high) == int:
