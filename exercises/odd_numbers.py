@@ -1,5 +1,5 @@
 def odd_numbers(low, high):
-	if low < high:
+	if low > high:
 		return "The first argument is higher than the second."
 	if type(low) == int or type(high) == int:
 		return "Only integers are valid input"
