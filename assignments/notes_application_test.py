@@ -4,6 +4,8 @@ from notes_application import NotesApplication
 from notes_application_context_manager import capture
 
 class NotesApplicationTestSuite(unittest.TestCase):
+    """ Contains different test cases for the NotesApplication."""
+    
     def test_NotesApplication_instance(self):
         erika = NotesApplication("Erika")
         self.assertIsInstance(erika, NotesApplication, msg="The object should be an instance of the 'NotesApplication' class")
